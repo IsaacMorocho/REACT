@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+INVESTIGACION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+•	¿Dónde utilizar JSX?
+Es una biblioteca de JS y se utiliza para para definir la estructura de un componente en REACT.
+•	¿Por qué usar JSX y no solo HTML en React?
+Se puede usar JSX porque permite incluir lógica condicional directamente en código de marcado además de que son bloques de construcción reutilizables que se pueden combinar para crear interfaces.
+•	Diferencias en la Sintaxis entre JSX y HTML.
+Por ejemplo:
+En la asignación de clases:
+HTML: class=”clase1”
+JSX: className=”clase1”
+Comentarios:
+HTML: <!- - comentario en html - - >
+JSX: {/*c comentario en JSX */}
+Cierre de etiquetas:
+HTML: <img src=” ” alt=” “>
+JSX: <img src=” ” alt=” “/>
+•	¿Qué es React?
+Biblioteca de código abierto que se basa en componentes reutilizables. Permiten dividir la interfaz en partes más pequeñas y manejables, además de cuenta con un ecosistema muy amplio como las herramientas React Router, obviamente para el enrutamiento y Redux para la gestión de un estado global.
+•	¿Cuándo apareció React?
+Aparecio en mayo del 2013 gracias a Jordan Walke, ingeniero en Facebook durante una conferencia de JSConf US.
+•	Buenas prácticas de React.
+Utiliza nombres de ciertos componentes y variables de manera coherente y concreta que da a entender de qué trata su función.
+Para dar estilos se suele utilizar PropTypes para validar las propiedades a los componentes y ayuda a prevenir los errores.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
