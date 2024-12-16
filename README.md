@@ -2,10 +2,15 @@ INVESTIGACION
 
 •	¿Dónde utilizar JSX?
 Es una biblioteca de JS y se utiliza para para definir la estructura de un componente en REACT.
+
 •	¿Por qué usar JSX y no solo HTML en React?
+
 Se puede usar JSX porque permite incluir lógica condicional directamente en código de marcado además de que son bloques de construcción reutilizables que se pueden combinar para crear interfaces.
+
 •	Diferencias en la Sintaxis entre JSX y HTML.
+
 Por ejemplo:
+
 En la asignación de clases:
 HTML: class=”clase1”
 JSX: className=”clase1”
